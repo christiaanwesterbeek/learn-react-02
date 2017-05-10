@@ -42,8 +42,11 @@ li {
 }
 
 .error {
-  background-color: pink;
   color: red;
+}
+
+.success {
+  color: green;
 }
 
 li span.delete-item {
