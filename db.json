@@ -19,26 +19,6 @@
       "id": 4,
       "name": "Setup fetch",
       "isComplete": false
-    },
-    {
-      "name": "New todo",
-      "isComplete": false,
-      "id": 9609
-    },
-    {
-      "name": "Another todo",
-      "isComplete": false,
-      "id": 77410
-    },
-    {
-      "name": "Yet another todo",
-      "isComplete": false,
-      "id": 63757
-    },
-    {
-      "name": "One more time",
-      "isComplete": false,
-      "id": 43835
     }
   ]
 }
