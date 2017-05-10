@@ -12,9 +12,18 @@ export const updateTodo = (list, updated) => {
 
 export const removeTodo = (list, id) => {
   const removeIndex = list.findIndex(item => item.id === id)
-  
+
   return [
     ...list.slice(0, removeIndex),
     ...list.slice(removeIndex+1)
   ]
+}
+
+export const filterTodos = (items, route) => {
+  return items.filter(item => (
+      (route === '/') ||
+      (route === '/complete' && item.isComplete) ||
+      (route === '/active' && !item.isComplete)
+    )
+  )
 }
